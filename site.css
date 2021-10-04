@@ -12,6 +12,19 @@ body {
     
 }
 
+h3  {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 .mainheader h3 {
 
     font-weight: 400;
@@ -32,4 +45,8 @@ footer {
     background-color: seagreen;
     color: white;
     text-align: center;
+  }
+
+  #mainFooter ul {
+      list-style-type: none;
   }
