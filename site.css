@@ -13,6 +13,7 @@ body{
     font: normal 16px "Open Sans", sans-serif;
     color:#555;
     text-align: center;
+    justify-content: center;
 }
 
 a{
@@ -38,11 +39,7 @@ a:hover{
     text-align: center;
 }
 
-.hero h1 {
-    justify-content: center;
-    margin-top: 500px;
-    margin-bottom: 0;
-}
+
 
 .hero .background-image{
     background-image: url(Images/Background.png);
@@ -75,11 +72,18 @@ a:hover{
 }
 
 .about {
-    color: #fff;
+    
     background-color: #000;
     font-style: unset;
     padding: 10px 10px 10px 10px;
+    margin: 100px;
+    
 
+}
+
+.about h3 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .about img {
@@ -126,12 +130,16 @@ header h2{
 .cast img {
     width: 200px;
     height: 200px;
+    justify-content: center;
     
 }
 .cast h4 {
     color: black;
     padding: 10px 10px 10px 10px;
     background: #414A4F;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin:25px 100px 25px;
+    justify-content: center;
 }
 
 .cast p {
@@ -139,6 +147,8 @@ header h2{
     font-size: 20px;
     padding: 10px 10px 50px 50px;
     background: #555;
+    margin:25px 100px 25px;
+    justify-content: center;
 }
 
 .show img {
@@ -149,13 +159,9 @@ header h2{
      text-decoration: none;
     color:inherit;
     cursor:pointer;
-    
-    
-
 }
 
 .show:hover {
     opacity: 0.6;
     
-
 }
