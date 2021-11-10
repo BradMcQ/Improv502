@@ -45,7 +45,7 @@ a:hover{
 }
 
 .hero .background-image{
-    background-image: url(images/Background.png);
+    background-image: url(Images/Background.png);
    position:fixed;
     justify-content: center;
     top:0;
