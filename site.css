@@ -244,6 +244,9 @@ header h2{
   height: 300px;
 }
 
+.Footer {
+  display: none;
+}
 
 
 @media (min-width: 600px){
@@ -333,5 +336,28 @@ header h2{
        
       }
       
-
+      .Footer  {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(34, 33, 33);
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      
+      .Footer h2 {
+        color: #CFD8DC;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .Footer li {
+        color: aqua;
+      }
+      
+      .Footer ul {
+        display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          list-style: none;
+      }
+      
 }

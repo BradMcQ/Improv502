@@ -3,3 +3,10 @@ document.getElementById("show").onclick = function () {
 };
 
 
+const menu = document.getElementById("hamburger-menu")
+const menuInput = document.getElementById("menu__toggle")
+menu.addEventListener("click", (event) => {
+        if (event.target instanceof HTMLAnchorElement) {
+        menuInput.checked = false;
+      }
+})
